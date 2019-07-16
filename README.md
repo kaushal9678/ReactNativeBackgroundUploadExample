@@ -35,7 +35,7 @@ The express server that receives the upload and writes it to file.
 
  1. If your server is not getting hit `adb reverse tcp:3000 tcp:3000`
 
-## To fix issue of crashing while uploading file in Android add following permission in AndroidManifest.xml
+## To fix issue of crashing while uploading file in Android add following permission in AndroidManifest.xml This started happening when setting targetSdkVersion = 28 (Android 9 / Pie) 
  # <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 ## Working on the react-native-background-upload package
 
